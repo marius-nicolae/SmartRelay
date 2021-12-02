@@ -1,0 +1,7 @@
+#1
+$repeat 2
+    PINB &= 0xfb //push button
+    #100
+    PINB |= 4 //release button
+    #100000
+$endrep

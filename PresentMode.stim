@@ -1,0 +1,8 @@
+#1
+// 0x36 = 0 //push button
+//PINB &= ~(1<<2)
+PINB &= 0xfb //push button
+#10
+//PINB |= (1<<2)
+PINB |= 4 //release button
+//0x36 = 1 //release button
